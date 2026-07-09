@@ -14,3 +14,58 @@ legend {
     font-weight: bold;
     color: purple;
 }
+
+#parent-container, .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#heading-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding-right: 20px;
+    max-width: 60%;
+}
+
+#img-container {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#conn-button {
+    background-color: rgba(175, 0, 175, 0.8);
+    border: none;
+    color: white;
+    padding: 10px 40px; /* TODO: Make button fill flexbox. */
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#conn-button:hover {
+    background-color: rgba(175, 0, 175, 1);
+}
+
+.info-int {
+    background: rgba(128, 128, 128, 0.8);
+    border: 3px solid grey;
+    margin: 10px;
+    padding: 10px;
+}
+
+fieldset {
+    border: 3px solid purple;
+    margin: 20px;
+    padding: 20px;
+}
