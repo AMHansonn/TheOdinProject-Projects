@@ -2,34 +2,123 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/fdc2aa805e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="heading">
-        <p>AMHanson_</p>
-    </div>
-    <section class="hero" name="welcome">
-        <h1>Hello! I AM Anthony Hanson.</h1>
-        <p>I am an undergraduate student at East Carolina University pursuing my degrees in psychology, neuroscience, and chemistry, building a strong foundation in the natural and behavioral sciences.</p>
-        <img src="amhanson memoji.png" alt="Mx. Hanson's Memoji">
-        <button class="sub">Connect</button>
-    </section>
-    <section class="info">
-        <h2>Information and Interests</h2>
-        <!--Programming Languages List-->
-        <!--Connect With Me-->
-        <!--Research Interests-->
-        <!--Past Research-->
-    </section>
-    <section class="quosection">
-        <h2 class="quote">I alone cannot change the world, but I can cast a stone across the waters to create many ripples.</h2> <!--look into how to make this a scrolling list.-->
-        <p class="author">Mother Teresa</p>
-    </section>
-    <section class="cta"></section>    
+    <fieldset>
+        <nav class="navbar">
+            <ul>
+                <li class="navitem"><a href="index.html">Home</a></li>
+                <li class="navitem"><a href="#info">Information</a></li>
+                <li class="navitem"><a href="#quosection">Quotes</a></li>
+                <li class="navitem"><a href="#cta">Connect</a></li>
+            </ul>
+        </nav>
+    </fieldset>
+
+    <fieldset>
+        <legend>Welcome</legend>
+        <section class="hero" name="welcome">
+            <h1 id="title">Hello! I AM Anthony Hanson.</h1>
+            <p>I am an undergraduate student at East Carolina University pursuing my degrees in psychology, neuroscience, and chemistry, building a strong foundation in the natural and behavioral sciences.</p>
+            <img src="amhanson memoji.png" alt="Mx. Hanson's Memoji">
+            <button class="sub" href="#cta">Connect</button>
+        </section>
+    </fieldset>   
+
+    <fieldset>
+        <legend>Information and Interests</legend>
+        <section class="info">
+            <section class="skills">
+                <h2>Professional Skills</h2>
+                <ul>
+                    <li>Healthcare Skills, such as:
+                    <ul>
+                        <li>Patient Care</li>
+                        <li>Medical Terminology</li>
+                        <li>Insurance Processing</li>
+                        <li>Basic Life Support</li>
+                        <li>Venipuncture & EKGs</li>
+                    </ul>
+                </li>
+                <li>Research Skills, such as:
+                    <ul>
+                        <li>Data Collection</li>
+                        <li>Data Analysis</li>
+                        <li>Scientific Writing</li>
+                        <li>Laboratory Techniques</li>
+                    </ul>
+                </li>
+                <li>Computer Skills, such as:
+                    <ul>
+                        <li>Microsoft Excel</li>
+                        <li>HTML/CSS</li>
+                        <li>Python</li>
+                        <li>Ruby</li>
+                    </ul>
+                </li> 
+            </ul>
+        </section>
+        <section class="interests">
+            <h2>Interests</h2>
+            <ul>
+                <li>Healthcare</li>
+                <li>Neuroscience</li>
+                <li>Psychology</li>
+                <li>Chemistry</li>
+                <li>Pharmacology</li>
+                <li>Computing & Data Science</li>
+                <li>Machine Learning</li>
+            </ul>
+        </section>    
+        <section class="research-ex">
+            <h2>Research Experience</h2>
+            <ul>
+                <li>East Carolina University - PSYC 2210: Research Methods in Psychology. Spring 2026.
+                    <p>Conducted research on the effects of emotional regulation and stress on academic performance in university students.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="work-ex">
+            <h2>Work Experience</h2>
+            <ul>
+                <li>CVS Health - Pharmacy Technician - June 2025 to Present
+                    <p>Assisted in prescription processing, customer service, and inventory management in a retail
+    pharmacy setting.</p>
+                </li>
+                <li>East Carolina University - Student Office Assistant - October 2025 - Present
+                    <p>Assisted in administrative tasks and provided support to staff at the East Carolina University Office of Alumni Relations.</p>
+                </li>
+            </ul>
+
+            </section>
+        </section>
+    </fieldset>
+
+    <fieldset>
+        <section class="quosection">
+            <h2><i>I alone cannot change the world, but I can cast a stone across the waters to create many ripples.</i></h2> <!--look into how to make this a scrolling list.-->
+            <p class="author">Mother Teresa</p>
+        </section>
+    </fieldset>
+
+    <fieldset>
+        <section class="cta">
+            <h2>Connect with Me!</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/anthonymhanson" target="_blank"><i class="fa-brands fa-linkedin-in"></i></i></a></li>
+                <li><a href="https://github.com/AMHansonn" target="_blank"><i alt="github" class="fa-brands fa-github"></i></a></li>
+                <li><a href="mailto:amhanson_@outlook.com"><i class="fa-solid fa-at"></i></a></li>
+            </ul>
+        </section>  
+    </fieldset>  
     <footer>
-        Copyright 2026 A. Hanson
+        <fieldset>
+            Copyright 2026 A. Hanson. All rights reserved.
+        </fieldset>
     </footer>
 </body>
 </html>
